@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "Copy Link",
+  "description": "copy link & topic and translate it to markdown format",
+  "permissions": [
+      "contextMenus",
+      "clipboardRead",
+      "clipboardWrite"
+  ],
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": true
+  },
+  "icons": { "16": "icon.png" }
+}
